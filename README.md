@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002893-blue)](https://doi.org/10.82901/nemar.on002893)
+
 ## Audio-Visual Attention Shift Experiment 
 
 **Project name:** [Sensory processing in aging]
