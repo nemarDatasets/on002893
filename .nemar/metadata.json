@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory-Visual Shift Study",
+  "description": "This dataset comprises scalp EEG recordings from 49 participants (19 younger adults aged 20-40 years and 30 older adults aged 49-73 years) performing an interleaved dual-oddball audio-visual attention task. The study investigates age-related differences in selective attention and sensory processing by examining event-related potentials during three task conditions: focus visual, focus auditory, and attention shift between modalities. Data were collected from 33 EEG channels plus EOG and mastoid reference channels at 250 Hz sampling rate.",
+  "methods_description": "Scalp EEG data were acquired from 33 channels using 10-20 electrode placement, referenced to the right mastoid, with additional left mastoid and two EOG channels. Sampling rate was 250 Hz with an analog passband of 0.01-60 Hz. Input impedances were maintained below 5 kilo-ohms. Participants performed an interleaved dual-oddball task with randomly interleaved auditory (500/550 Hz tones) and visual (light/dark blue squares) stimuli presented at stimulus-onset asynchronies of 200-800 ms, with task cues (Look/Hear) interspersed at mean 5-second intervals.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,53 +13,6 @@
     "Kay Robbins (curation)": {},
     "Arno Delorme (curation)": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds002893.v2.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on002893",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on002893",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1016/j.brainres.2008.02.010",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Institutes of Health",
-      "award_number": "R01-AG18030"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".gitattributes",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".txt",
-    ".xlsx"
-  ],
-  "description": "This dataset comprises EEG recordings from an auditory-visual attention shift task designed to investigate age-related changes in selective attention and sensory processing. Nineteen younger adults (ages 20-40) and 30 older adults (ages 49-73) performed an interleaved dual-oddball task with three conditions: focus visual, focus auditory, and shift focus between modalities. Scalp EEG was recorded from 33 channels at 250 Hz sampling rate, along with EOG channels, during stimulus presentation with randomly interleaved auditory and visual targets.",
-  "methods_description": "Scalp EEG data were collected from 33 channels using 10-20 electrode placement, referenced to the right mastoid, with additional left mastoid and two EOG channels. Data were acquired at 250 Hz sampling rate with an analog passband of 0.01-60 Hz using SA Instrumentation equipment. Input impedances were maintained below 5 kilo-ohms. Participants performed an interleaved dual-oddball task with auditory (500/550 Hz tones) and visual (light/dark blue squares) stimuli presented with stimulus-onset asynchronies of 200-800 ms, interspersed with verbal cues ('Look'/'Hear') at mean 5-second intervals.",
   "keywords": [
     {
       "term": "EEG"
@@ -78,11 +33,57 @@
       "term": "auditory-visual integration"
     },
     {
-      "term": "selective attention"
+      "term": "oddball task"
     },
     {
-      "term": "oddball task"
+      "term": "sensory processing"
     }
   ],
-  "source_hash": "12949138ea234cfba865280e175a5a105cd4e676b414a6b254c8fb01910ee9d2"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on002893",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.brainres.2008.02.010",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds002893.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on002893",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "R01-AG18030"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "8.2 GB (125 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".yml"
+  ],
+  "source_hash": "85af8025342c0282b51bbfe98876a867a01f1e4fc037b96e19165877ee812547"
 }
